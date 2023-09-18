@@ -29,4 +29,15 @@ body {
     .home-text, .about-text, .projects-text, .contact-text {
         font-size: 4vw; /* Adjust font size for smaller screens */
     }
+
+    /* Custom styles for iPhone devices */
+    @media only screen and (max-width: 768px) and (orientation: portrait) {
+        /* Add your custom styles for iPhone portrait view here */
+        #home-screen {
+            /* Example: Change the background color for iPhone portrait view */
+            background-color: #333;
+        }
+        
+        /* You can add more specific styles for iPhone devices here */
+    }
 }
