@@ -26,36 +26,37 @@ body {
 }
 
 .home-text {
-    position: absolute; /* Position relative to the #loading-screen */
-    top: 0px; /* Adjust the top position to your liking */
-    left: 10px; /* Adjust the right position to your liking */
-    font-size: 24px;
+    position: absolute;
+    top: 5%; /* Adjust the top position as needed */
+    left: 2%; /* Adjust the left position as needed */
+    font-size: 3vw; /* Use viewport units for font size */
     color: white;
 }
 
 .about-text {
-    position: absolute; /* Position relative to the #loading-screen */
-    top: 25px; /* Adjust the top position to your liking */
-    left: 550px; /* Adjust the right position to your liking */
-    font-size: 24px;
+    position: absolute;
+    top: 30%; /* Adjust the top position as needed */
+    left: 25%; /* Adjust the left position as needed */
+    font-size: 3vw; /* Use viewport units for font size */
     color: white;
 }
 
 .projects-text {
-    position: absolute; /* Position relative to the #loading-screen */
-    top: 25px; /* Adjust the top position to your liking */
-    right: 550px; /* Adjust the right position to your liking */
-    font-size: 24px;
+    position: absolute;
+    top: 30%; /* Adjust the top position as needed */
+    right: 25%; /* Adjust the right position as needed */
+    font-size: 3vw; /* Use viewport units for font size */
     color: white;
 }
 
 .contact-text {
-    position: absolute; /* Position relative to the #loading-screen */
-    top: 25px; /* Adjust the top position to your liking */
-    right: 15px; /* Adjust the right position to your liking */
-    font-size: 24px;
+    position: absolute;
+    top: 30%; /* Adjust the top position as needed */
+    right: 2%; /* Adjust the right position as needed */
+    font-size: 3vw; /* Use viewport units for font size */
     color: white;
 }
+
 
 .ascii-art {
     font-family: monospace;
